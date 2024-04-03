@@ -1,0 +1,29 @@
+/* Seletor de classe */
+.cor.vermelho {
+    color: rgb(228, 58, 58);
+    font-weight: bold;
+}
+.cor.azul{
+    color: blue;
+}
+.cor.branco{
+    color: white;
+}
+
+/* Seletor de ID */
+#paragrafo-destaque {
+    background-color: rgb(243, 215, 137);
+}
+
+/* Seletor Universal */
+* {
+   background-color: rgb(243, 201, 149);
+}
+
+/* Seletor Elemento-Elemento */
+div p {
+    background-color: rgb(194, 172, 111);
+}
+    h2{
+        background-color: rgb(231, 188, 136);
+    }
