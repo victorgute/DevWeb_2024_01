@@ -1,0 +1,67 @@
+body {
+    background-color: antiquewhite;
+    margin: 2%;
+}
+
+.titulo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 15px 0px 10px 0px;
+    text-align: center;
+    margin-top: 0px;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: groove;
+    border-right-style: groove;
+}
+
+.botao-1 {
+    color: #ffff;
+    background-color: black;
+    padding: 10px 15px;
+    border: outset;
+    text-decoration: none;
+}
+
+.botao-2 {
+    color: #ffff;
+    background-color: black;
+    padding: 10px 15px;
+    border: outset;
+    margin-top: 50%;
+    margin-left: 82%;
+    margin-right: 5%;
+    margin-bottom: 50%;
+    text-decoration: none;
+}
+
+.box-1{
+    margin-bottom: 10px;
+    background-color: rgb(247, 218, 189);
+    color: #000000;
+    border-right: 5px rgb(0, 0, 0) solid;
+    border-left: 5px rgb(0, 0, 0) solid;
+    border-top: 5px rgb(0, 0, 0) solid;
+    border-bottom: 5px rgb(0, 0, 0) solid;
+    border-width: 3px;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 20px;
+}
+
+.box-2{
+    background-color: rgb(247, 218, 189);
+    border-bottom: 5px #000000 double;
+    border-top: #000000 double;
+    border-left: #000000 groove;
+    border-right: #000000 groove;
+    border-top-width: 10px;
+    border-bottom-width:10px;
+    border-right-width: 10px;
+    border-left-width: 5px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.box-3{
+ 
+}
