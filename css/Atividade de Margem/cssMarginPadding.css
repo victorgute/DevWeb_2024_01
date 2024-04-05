@@ -35,7 +35,7 @@ body {
     text-decoration: none;
 }
 
-.box-1{
+.box-1 {
     margin-bottom: 10px;
     background-color: rgb(247, 218, 189);
     color: #000000;
@@ -49,19 +49,27 @@ body {
     padding: 20px;
 }
 
-.box-2{
+.box-2 {
     background-color: rgb(247, 218, 189);
     border-bottom: 5px #000000 double;
     border-top: #000000 double;
     border-left: #000000 groove;
     border-right: #000000 groove;
     border-top-width: 10px;
-    border-bottom-width:10px;
+    border-bottom-width: 10px;
     border-right-width: 10px;
     border-left-width: 5px;
     padding-top: 30px;
     padding-left: 20px;
 }
-.box-3{
- 
+
+.box-3 {
+    background-color: rgb(247, 218, 189);
+    border-bottom: #000000 ridge;
+    border-top: #000000 ridge;
+    border-right: #000000 outset 10px;
+    border-left: #000000 outset 5px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-top: 10px;
 }
