@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(206, 206, 206);
+}
+
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.box {
+    width: calc(33.33% - 20px); 
+    background-color: #f0f0f0;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.clear-both {
+    clear: both;
+}
+.titulo{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.sub{
+    text-align: left;
+    margin: 50px;
+    text-decoration: underline;
+}
