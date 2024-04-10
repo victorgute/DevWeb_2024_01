@@ -1,0 +1,19 @@
+p::before{
+    margin: 10px;
+}
+p::first-letter {
+    font-size: 200%;
+    color: #000000;
+}
+.p::first-line{
+    background-color: cadetblue;
+}
+
+::selection{
+    color: gold;
+    background-color: red;
+}
+p::selection{
+    color: blue;
+    background-color: #000000;
+}
