@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(61, 60, 60);
+    color: white;
+    font-family: "Tahoma", sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cabeça{
+    float: left;
+    width: 30%;
+    padding: 8px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.disney{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    background-color: black;
+}
+.lista-1{
+    background: #fff;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.lista-2{
+    background-color:white;
+    color: #555;
+    list-style-type: none;
+    border: 1px solid #555;
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+.mensal{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.anual{
+    background-color: #4caf50;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.cabeça li{
+    padding: 20px;
+    border-bottom: 20px solid #eee;
+    text-align: center;
+}
+
+.link {
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+@media(max-width:768px) {
+    .col {
+    width: 100%;
+    }
+   }
