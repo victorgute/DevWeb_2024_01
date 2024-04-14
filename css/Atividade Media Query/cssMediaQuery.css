@@ -8,23 +8,32 @@ h1 {
     text-align: center;
 }
 
-.cabeça{
+.cabeça {
     float: left;
-    width: 30%;
+    width: 50%; 
     padding: 8px;
     box-sizing: border-box;
-    width: 50%;
+} 
+.cabeça-2{
+    float: left;
+    width: 25%; 
+    padding: 5px;
+    box-sizing: border-box;
 }
 
-.disney{
+.disney, 
+.netflix {
     text-align: center;
     font-size: 35px;
     padding: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
     background-color: black;
 }
-.lista-1{
+
+.lista-1,
+.lista-2,
+.lista-3 {
     background: #fff;
     color: #555;
     list-style-type: none;
@@ -34,31 +43,32 @@ h1 {
     text-align: center;
 }
 
-.lista-2{
-    background-color:white;
-    color: #555;
-    list-style-type: none;
-    border: 1px solid #555;
-    margin: 0%;
-    padding: 0%;
-    text-align: center;
-}
-
-.mensal{
+.mensal {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     font-size: 25px;
 }
 
-.anual{
+.anual {
     background-color: #4caf50;
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
-.cabeça li{
+
+.cabeça li {
     padding: 20px;
     border-bottom: 20px solid #eee;
     text-align: center;
+}
+
+.cabeça-2 li{
+    padding: 20px;
+    border-bottom: 20px solid #eee;
+    text-align: center;
+}
+
+.esconder{
+   color: rgb(61, 60, 60);
 }
 
 .link {
@@ -71,8 +81,17 @@ h1 {
     font-size: 18px;
 }
 
-@media(max-width:768px) {
-    .col {
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .cabeça {
+        width: 100%; /* cada cabeçalho ocupa a largura total da tela */
     }
-   }
+}
