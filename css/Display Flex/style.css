@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+body{
+    background-color: aqua;
+    border:1px black solid;
+}
+
+.container div{
+    border-radius: 1px;
+    border: 1px solid #fff;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;;
+}
+
+.container{
+    display: flex;
+    height: 300px;
+    align-items: end;
+    justify-content: baseline ;
+}
+.container div:nth-child(3){
+    order: -1 ;
+}
+.container div{
+    margin: 0;
+    padding: 20px 0;
+    width: 80px;
+    flex-grow: -1;
+}
+
+.container div{
+flex-shrink: 0;
+}
