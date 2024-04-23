@@ -3,7 +3,12 @@
 .principal {
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    border: 1px solid black;
+    border: 10px solid rgb(240, 0, 0);
+}
+.noite{
+    border: 10px solid rgb(253, 3, 3);
+    background-color: black;
+    height: 500px;
 }
 
 
