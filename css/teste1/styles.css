@@ -94,7 +94,7 @@ section h2 {
     text-align: center;
 }
 
-.container p{
+.container p {
     font-size: 30px;
 }
 
@@ -176,12 +176,41 @@ section p {
 
 @media (max-width: 768px) {
 
-    .rodape-div-1,
-    .rodape-div-2,
-    .rodape-div-3,
-    .rodape-div-4 {
-        width: calc(50% - 20px);
-        padding: 10px;
+    @media (max-width: 768px) {
+        .carousel {
+            height: 300px;
+            /* Reduzindo a altura do carousel */
+        }
+
+        section h2 {
+            font-size: 20px;
+            /* Reduzindo o tamanho do texto */
+        }
+
+        section p {
+            font-size: 14px;
+            /* Reduzindo o tamanho do texto */
+        }
+
+        .exposicao h3,
+        .colecao h3 {
+            font-size: 18px;
+            /* Reduzindo o tamanho do texto */
+        }
+
+        .exposicao p,
+        .colecao p {
+            font-size: 14px;
+            /* Reduzindo o tamanho do texto */
+        }
+
+        .rodape-div-1,
+        .rodape-div-2,
+        .rodape-div-3,
+        .rodape-div-4 {
+            width: calc(50% - 20px);
+            /* Mudando a largura das colunas */
+        }
     }
 
     .rodape-div {
