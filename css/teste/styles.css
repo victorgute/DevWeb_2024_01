@@ -13,7 +13,7 @@ body {
 .navbar-1 {
     background-color: #333;
     overflow: hidden;
-    text-decoration: none;
+
     background-color: red;
 }
 
@@ -31,6 +31,8 @@ body {
     color: black;
     padding: 13px;
     margin-left: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
 }
 
 /* Estilos para a barra de pesquisa */
@@ -41,9 +43,11 @@ body {
 input[type=text] {
     padding: 10px;
     margin-top: 8px;
-    font-size: 17px;
+    font-size: 10px;
     border: #000000 2px solid;
+    width: 200px;
 }
+
 
 /* Estilos para o carrossel */
 .carousel {
@@ -77,8 +81,10 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-gap: 1em;
-    justify-items: stretch;
-    align-items: stretch;
+}
+
+.texto{
+    padding: 50px;
 }
 
 .img1{
@@ -88,19 +94,9 @@ h1 {
 
 a {
 padding: 20px;
-
 }
 
-.image-container img {
-    width: 1000px;
-    margin: 10px 20px;
-    padding: 10px;
-    background-color: #ffffff;
-}
-
-
-
-V.rodape{
+.rodape{
     background-color: #181412;
     color: rgb(0, 0, 0);
     height: auto;
@@ -108,6 +104,7 @@ V.rodape{
     font-size: 14px;
     font-family: helvetica;
 }
+
 .rodape a{
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -119,16 +116,19 @@ V.rodape{
     width:100%;
     align-items: stretch;
 }
+
 .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
     display: flex;
     width: calc(100% / 4 - 0px);
     padding: 10px;
     background-color: #cccccc;
 }
+
 .rodape span{
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
+
 .rodape-direitos{
     width: 100%;
     background-color: #000000;
@@ -137,6 +137,7 @@ V.rodape{
     text-align: center;
     margin: 0;
 }
+
 @media (max-width: 768px) {
     .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
         width: calc(50% - 20px);

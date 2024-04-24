@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+
+input {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* CSS */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.container a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li.search-bar {
+    margin: 0;
+}
+
+nav ul li.search-bar form {
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul li.search-bar input[type="text"] {
+    padding: 8px;
+}
+
+nav ul li.search-bar button {
+    padding: 8px 16px;
+    background-color: #fff;
+    border: none;
+    color: #333;
+    cursor: pointer;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.carousel {
+    width: 100%;
+    height: 600px;
+    background-color: #f2f2f2;
+    margin-top: 0px;
+    /* para deixar espaço abaixo da navbar */
+    margin-bottom: 100px;
+    object-fit: cover;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+
+section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.exposicao,
+.colecao {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.exposicao img,
+.colecao img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.exposicao h3,
+.colecao h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.exposicao p,
+.colecao p {
+    font-size: 18px;
+}
+
+
+
+.rodape {
+    background-color: #181412;
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.rodape-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: stretch;
+}
+
+.rodape-div-1,
+.rodape-div-2,
+.rodape-div-3,
+.rodape-div-4 {
+    display: flex;
+    width: calc(100% / 4 - 0px);
+    padding: 50px;
+    background-color: #cccccc;
+}
+
+.rodape span {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.rodape-direitos {
+    width: 100%;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 20px 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+@media (max-width: 768px) {
+
+    .rodape-div-1,
+    .rodape-div-2,
+    .rodape-div-3,
+    .rodape-div-4 {
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+
+    .rodape-div {
+        padding: 60px 0px 40px 0px;
+    }
+}
