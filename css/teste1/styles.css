@@ -24,6 +24,7 @@ input {
 }
 
 
+
 .container a:hover {
     background-color: #ffffff;
     color: #000000;
@@ -75,7 +76,7 @@ nav ul li a {
 
 .carousel {
     width: 100%;
-    height: 600px;
+    height: 800px;
     background-color: #f2f2f2;
     margin-top: 0px;
     /* para deixar espaço abaixo da navbar */
@@ -91,6 +92,10 @@ section h2 {
     margin-bottom: 20px;
     font-size: 28px;
     text-align: center;
+}
+
+.container p{
+    font-size: 30px;
 }
 
 section p {
