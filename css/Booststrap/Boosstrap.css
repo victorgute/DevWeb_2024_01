@@ -1,0 +1,46 @@
+/* Estilos adicionais para personalização */
+
+/* Estilo para a área do container */
+.container {
+  margin-top: 20px;
+}
+
+/* Estilo para os campos de formulário */
+.form-control {
+  margin-bottom: 10px;
+}
+
+/* Estilo para o botão de envio */
+.btn-primary {
+  margin-top: 10px;
+}
+
+/* Estilo para a tabela */
+.table {
+  margin-top: 20px;
+}
+
+/* Estilo para os botões da lista de botões */
+.btn-group {
+  margin-top: 20px;
+}
+
+/* Estilo para o efeito Flush */
+.card {
+  margin-top: 20px;
+}
+
+/* Estilo para o Card */
+.card {
+  margin-top: 20px;
+}
+
+/* Estilo para o título do Card */
+.card-title {
+  color: #333;
+}
+
+/* Estilo para o texto do Card */
+.card-text {
+  color: #666;
+}
