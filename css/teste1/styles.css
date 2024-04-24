@@ -13,8 +13,10 @@ body {
 
 
 input {
+    border: 2px solid white;
     border-radius: 10px;
     margin: 10px;
+    margin-left: 5px;
 }
 
 /* CSS */
@@ -32,9 +34,9 @@ input {
 }
 
 header {
-    background-color: #333;
+    background-color: #e4002b;
     color: #fff;
-    padding: 20px 0;
+    padding:15px ;
 }
 
 nav ul {
@@ -58,20 +60,26 @@ nav ul li.search-bar form {
 
 nav ul li.search-bar input[type="text"] {
     padding: 8px;
+    font-style: italic;
+    margin-left: 5px;
 }
 
 nav ul li.search-bar button {
+    margin-right: 5px;
     padding: 8px 16px;
     background-color: #fff;
     border: none;
     color: #333;
     cursor: pointer;
+    font-style: italic;
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 21px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
 }
 
 .carousel {
@@ -79,28 +87,39 @@ nav ul li a {
     height: 800px;
     background-color: #f2f2f2;
     margin-top: 0px;
-    /* para deixar espaço abaixo da navbar */
     margin-bottom: 100px;
     object-fit: cover;
-}
+}       
 
-section {
-    padding: 40px 0;
+h1 {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-bottom: 20px !important;
 }
 
 section h2 {
     margin-bottom: 20px;
     font-size: 28px;
     text-align: center;
+    font-family: "Inter", sans-serif;
 }
 
 .container p {
     font-size: 30px;
+    font-family: "Inter", sans-serif;
+}
+
+.btn-secondary {
+    background-color: #e4002b !important;
+    border: 1px solid white;
+    width: 100px;
+    padding: 12px 10px; 
 }
 
 section p {
     font-size: 18px;
     line-height: 1.6;
+    font-family: "Inter", sans-serif;
 }
 
 .exposicao,
@@ -120,11 +139,13 @@ section p {
 .colecao h3 {
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
 }
 
 .exposicao p,
 .colecao p {
     font-size: 18px;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -135,7 +156,7 @@ section p {
     height: auto;
     width: 100%;
     font-size: 14px;
-    font-family: helvetica;
+    font-family: "Inter", sans-serif;
 }
 
 .rodape a {
@@ -150,6 +171,14 @@ section p {
     align-items: stretch;
 }
 
+.rodape-div-3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: stretch;
+    color: white;
+}
+
 .rodape-div-1,
 .rodape-div-2,
 .rodape-div-3,
@@ -157,12 +186,13 @@ section p {
     display: flex;
     width: calc(100% / 4 - 0px);
     padding: 50px;
-    background-color: #cccccc;
+    background-color: #e4002b;
+    color: white;
 }
 
 .rodape span {
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .rodape-direitos {
@@ -174,6 +204,20 @@ section p {
     margin: 0px;
 }
 
+.termos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sub-titulo {
+    text-align: center;
+    margin: 20px;
+}
+
+.content {
+    margin: 40px;
+    font-size: 20px;
+}
 @media (max-width: 768px) {
 
     @media (max-width: 768px) {
