@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+
+}
+.item li {
+  list-style: none;
+  float: left;
+  margin: 30px;
+}
+.item a {
+  text-decoration: none;
+  color: white;
+  
+}
+.item a:hover {
+    color: rgb(231, 0, 0);
+}
