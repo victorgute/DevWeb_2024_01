@@ -1,6 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -8,7 +8,6 @@
   display: flex;
   list-style-type: none;
   text-align: center;
-
 }
 .item li {
   list-style: none;
@@ -18,8 +17,33 @@
 .item a {
   text-decoration: none;
   color: white;
-  
 }
 .item a:hover {
-    color: rgb(231, 0, 0);
+  color: rgb(231, 0, 0);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.search input[type="text"] {
+  padding: 6px;
+  margin-right: 500px;
+  border: none;
+}
+
+.search button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.search button img {
+  width: 30px;
 }
