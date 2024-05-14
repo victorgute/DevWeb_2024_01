@@ -1,0 +1,15 @@
+function addNums(num1=1,num2=1){
+    return num1+num2;
+}
+
+//chamada a função addNums
+let x = addNums(4,5);
+console.log(x);
+
+//chamada a função myfunc antes  de declaração da função
+let z = myFunc(4,5);
+console.log(z);
+
+function myFunc(num1,num2){
+    return num1*num2;
+}
