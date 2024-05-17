@@ -71,5 +71,28 @@ padding-right: 200px;
 padding-top: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  .logomarca {
+    padding-right: 0; /* Remover o espaçamento à direita para a logomarca em telas menores */
+    padding-left: 20px; /* Adicionar espaçamento à esquerda para a logomarca em telas menores */
+  }
+
+  .item {
+    display: none; /* Esconder os itens do menu principal em telas menores */
+  }
+
+  .search {
+    padding-right: 20px; /* Reduzir o espaçamento à direita para o formulário de pesquisa em telas menores */
+  }
+
+  .tresbarras {
+    display: block; /* Exibir o ícone de menu em telas menores */
+  }
+}
+
+
+
+
+
 
 
