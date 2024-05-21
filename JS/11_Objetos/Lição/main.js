@@ -1,6 +1,5 @@
-//Classes
-class carro {
-    constructor(dia,mes,ano,hora){
+class tempo {
+   constructor(dia,mes,ano,hora){
         this.dia=dia;
         this.ano=ano;
         this.mes=mes;
@@ -9,8 +8,8 @@ class carro {
 }
 
 //Intaciando objetos a classe
-let meuCarro1= new carro(7,11,2014,12);
-let meuCarro2= new carro(10,12,2019,11);
+let meuCarro1= new tempo(7,11,2014,12);
+let meuCarro2= new tempo(10,12,2019,11);
 
 //Imprmindo valores
 console.log(meuCarro1.dia);
@@ -37,10 +36,23 @@ class NovoCarro{
 }
 //Buscando o ano atual automaticamente
 let dataHoje = new Date();
-let ano = dataHoje.getFullYear();
+let ano1 = dataHoje.getFullYear();
 
 //console.log(dataHoje)
 
 let meuNovoCarro = new NovoCarro('Ford',2014);
 
-console.log(meuNovoCarro.idadeCarro(ano));
+
+console.clear();
+let  datatoday = new Date()
+let dia = datatoday.getUTCDate()
+let mês = datatoday.getMonth()
+let ano = datatoday.getFullYear()
+let hora = datatoday.getHours()
+
+console.log(datatoday)
+console.log(hora)
+console.log(dia)
+console.log(mês)
+console.log(ano)
+

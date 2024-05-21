@@ -6,6 +6,5 @@ let body2 = document.createElement('H1');
 let body3 = document.createElement('P');
 
 body.innerHTML = 'Olá alunos';
-body1.innerHTML = 'tudo bem?'
 document.body.appendChild(body);
 heading.style.borderBottom = 'solid 3px #000';
