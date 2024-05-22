@@ -1,12 +1,9 @@
-const searchIcon = document.getElementById('search-icon');
-const searchInput = document.getElementById('search-input');
-const searchContainer = document.getElementById('search');
+document.addEventListener("DOMContentLoaded", function() {
+    const menuButton = document.querySelector(".navbar img.tresbarras");
+    const menuItems = document.querySelector(".navbar ul");
 
-searchIcon.addEventListener('click', function() {
-    if (searchInput.style.width === '0px') {
-        searchInput.style.width = '150px'; // Largura expandida
-        searchInput.focus(); // Foca no campo de pesquisa
-    } else {
-        searchInput.style.width = '0'; // Esconde o campo de pesquisa
-    }
+    menuButton.addEventListener("click", function() {
+        menuItems.classList.toggle("active");
+    });
 });
+
