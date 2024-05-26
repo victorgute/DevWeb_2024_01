@@ -53,10 +53,17 @@ body {
   display: flex;
   align-items: center;
 }
-
+.item :hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+  }
 
 .nav-icons img {
   width: 80px;
+}
+
+.button-tres{
+  display: none;
 }
 
 
@@ -82,6 +89,8 @@ body {
       padding: 10px 0;
       border-top: 1px solid #ddd;
   }
+
+  
 
   .navbar ul li:first-child {
       border-top: none;
