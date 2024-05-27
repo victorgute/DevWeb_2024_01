@@ -1,4 +1,3 @@
-/* Estilos básicos */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -40,7 +39,7 @@ body {
   color: white;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-.navbar a:hover{
+.navbar a:hover {
   color: blue;
 }
 
@@ -53,67 +52,116 @@ body {
   display: flex;
   align-items: center;
 }
+
+
 .item :hover {
-    transform: translateY(-5px);
-    transition: all 0.2s;
-  }
+  transform: translateY(-5px);
+  transition: all 0.2s;
+}
 
 .nav-icons img {
   width: 80px;
 }
 
-.button-tres{
+.button-tres {
   display: none;
 }
 
+header{
+    background-image: radial-gradient(#fff, #c7c7c7);
+}
 
-/* Estilos responsivos */
+.header-button-size {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding: 1rem;
+}
+.header-button-size-left {
+  height: 100%;
+  flex-basis: 50%;
+}
+
+.header-button-size-left h2 {
+  font-size: 3.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-button-size-left p {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.header-button-size-left button {
+  background-color: rgb(95, 135, 245);
+  border: none;
+  cursor: pointer;
+  padding: 0.8rem 3.8rem;
+  border-radius: 9999px;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.5s;
+}
+
+.header-button-size-left button:hover{
+  background-color: #004c94;
+}
+
+.header-button-size-right {
+  display: flex;
+  flex-basis: 50%;
+  align-items: center;
+}
+
+.header-button-size-right img {
+  width: 125%;
+}
+
 @media (max-width: 768px) {
   .navbar img.tresbarras {
-      display: block;
+    display: block;
   }
 
   .navbar ul {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      background-color: #f8f9fa;
-      position: absolute;
-      top: 60px;
-      left: 0;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f8f9fa;
+    position: absolute;
+    top: 60px;
+    left: 0;
   }
 
   .navbar ul li {
-      display: block;
-      text-align: center;
-      padding: 10px 0;
-      border-top: 1px solid #ddd;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
   }
 
-  
-
   .navbar ul li:first-child {
-      border-top: none;
+    border-top: none;
   }
 
   .navbar ul.active {
-      display: flex;
+    display: flex;
   }
 
   .navbar .search {
-      width: 100%;
-      justify-content: center;
-      margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
   }
 
   .navbar .carrinho {
-      display: none;
+    display: none;
   }
 }
 
 @media (max-width: 480px) {
   .navbar .search input {
-      width: 80%;
+    width: 80%;
   }
 }
 
@@ -135,10 +183,3 @@ body {
     display: block; /* Exibir o ícone de menu em telas menores */
   }
 }
-
-
-
-
-
-
-
