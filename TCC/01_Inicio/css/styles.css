@@ -40,7 +40,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .navbar a:hover {
-  color: blue;
+  color: rgb(95, 135, 245);
 }
 
 .navbar .logomarca {
