@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        }
+
+        .mb-1{
+            padding-top: 2rem;
+        }
+
+        body{
+            background-color: rgb(179, 178, 178);
+        }
+
+        .list-group-item {
+                background-color: rgb(197, 197, 197);
+        }
+
+        .form-control{
+            background-color: rgb(204, 202, 202);
+        }
+        
